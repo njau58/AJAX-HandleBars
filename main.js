@@ -1,5 +1,5 @@
 var ourRequest = new XMLHttpRequest();
-ourRequest.open('GET', 'http://localhost:3000/pets',true);
+ourRequest.open('GET', 'https://my-json-server.typicode.com/njau58/json-server/db',true);
 ourRequest.onload = function() {
   if (ourRequest.status >= 200 && ourRequest.status < 400) {
    
@@ -22,7 +22,7 @@ if(age>0){
   return age + " years  old."
 }else
 {
-  return "less than 1yeae old."
+  return "less than 1year old."
 }
 })
 
